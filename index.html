@@ -28,20 +28,59 @@
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#katalog">Katalog</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="keranjang"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="keranjang-button"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="pintasan-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- search form START -->
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- search form END -->  
+
+      <!-- shopping cart START -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="Stelan Olahraga">
+          <div class="item-detail">
+            <h3>Stelan Olahraga</h3>
+            <div class="item-price">IDR 85K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="Stelan Olahraga">
+          <div class="item-detail">
+            <h3>Stelan Olahraga</h3>
+            <div class="item-price">IDR 85K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="Stelan Olahraga">
+          <div class="item-detail">
+            <h3>Stelan Olahraga</h3>
+            <div class="item-price">IDR 85K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- shopping cart END -->
     </nav>
     <!-- Navbar End -->
 
     <!-- Hero Section Start -->
     <section class="hero" id="home">
       <main class="content">
+        <div class="mask-container">
         <h1>Trendy dan <span>Terjangkau</span></h1>
         <p>Halo!</p>
         <p>Selamat datang di RG Design!</p>
@@ -52,8 +91,9 @@
           kirim, salah size atau cacat silakan diretur. Kami jamin kepuasan
           pembeli.
         </p>
-        <a href="#" class="cta">Beli Sekarang</a>
+
       </main>
+    </div>
     </section>
     <!-- Hero Section End -->
 
@@ -135,6 +175,135 @@
         </div>
     </section>
 
+    <!-- product section START -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nihil cum aliquam labore! Quam, reiciendis.</p>
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="product 1">
+          </div>
+          <div class="product-content">
+            <h3>Stelan Olahraga</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 85K <span>IDR 100K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="product 1">
+          </div>
+          <div class="product-content">
+            <h3>Stelan Olahraga</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 85K <span>IDR 100K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="product 1">
+          </div>
+          <div class="product-content">
+            <h3>Stelan Olahraga</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 85K <span>IDR 100K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="product 1">
+          </div>
+          <div class="product-content">
+            <h3>Stelan Olahraga</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 85K <span>IDR 100K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="product 1">
+          </div>
+          <div class="product-content">
+            <h3>Stelan Olahraga</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 85K <span>IDR 100K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="product 1">
+          </div>
+          <div class="product-content">
+            <h3>Stelan Olahraga</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 85K <span>IDR 100K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section END -->
+
     <!-- contact section start -->
     <section id="contact" class="contact">
         <h2><span>Kontak </span>Kami</h2>
@@ -181,6 +350,30 @@
         </div>
     </footer>
     <!-- footer end -->
+
+    <!-- modal box item detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produk/f9c9a7f8-dbc8-4371-bf4f-8cf4184930db.jpg" alt="Stelan Olahraga">
+          <div class="product-content">
+            <h3>Stelan Olahraga</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, in delectus possimus maiores fuga nemo, sequi a voluptas dolor labore voluptatum, eaque temporibus aut? Adipisci.</p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 85K <span>IDR 100K</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i><span>Add to cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal box item detail end -->
 
     </section>
     <!-- Katalog section end -->
